@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,700&family=Montserrat:ital,wght@0,100;1,100&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,700&family=Montserrat:ital,wght@0,100;1,100&family=Outfit:wght@100;300&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.flex_container{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    width: 20rem;
+    height: 35rem;
+    flex-direction: column;
+
+    border-radius: 5%;
+}
+.image{
+    padding: 1.2rem;
+    border-radius: 8%;
+}
+
+.text_container{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+}
+
+.text{
+    color:hsl(215, 51%, 70%);
+    font-size: 1rem;
+    font-weight: 10;
+}
+
+.eth_days{
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    font-size: 1rem;  
+    margin-bottom: 2rem;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.days{
+    padding-left: 5rem;
+    color:hsl(215, 51%, 70%);
+}
+
+.icon{
+    margin-right: 0.4rem;
+}
+
+.person{
+    border-top: 0.1rem solid hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+.guy{
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+}
+
+.text_person{
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    color:hsl(215, 51%, 70%);
+}
+
+.text_person2{
+    margin-top: 1rem;
+    padding-left: 0.2rem;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
